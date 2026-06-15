@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.3"
     },
-    "CreationDate": "2026-06-11T15:40:50-04:00"
+    "CreationDate": "2026-06-15T15:24:19-04:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 34.55,
-      "Y": 26.45
+      "X": 34.825,
+      "Y": 38.25
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,9 +27,7 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.1,
-      "TrackToRegion": 0.25,
-      "RegionToRegion": 0.25
+      "MinLineWidth": 0.2
     }
   ],
   "FilesAttributes": [
@@ -51,31 +49,6 @@
     {
       "Path": "Cam-connector-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Cam-connector-F_Silkscreen.gbr",
-      "FileFunction": "Legend,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Cam-connector-B_Silkscreen.gbr",
-      "FileFunction": "Legend,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Cam-connector-F_Mask.gbr",
-      "FileFunction": "SolderMask,Top",
-      "FilePolarity": "Negative"
-    },
-    {
-      "Path": "Cam-connector-B_Mask.gbr",
-      "FileFunction": "SolderMask,Bot",
-      "FilePolarity": "Negative"
-    },
-    {
-      "Path": "Cam-connector-Edge_Cuts.gbr",
-      "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
   ],
