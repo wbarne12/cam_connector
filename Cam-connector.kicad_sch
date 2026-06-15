@@ -7018,7 +7018,7 @@
 		)
 		(uuid "70a8dc81-a3c3-44d7-ba5f-b21b3e129ec7")
 	)
-	(text "Resistive to I2C"
+	(text "Resistive touch \nscreen signal to I2C."
 		(exclude_from_sim no)
 		(at 201.93 27.305 0)
 		(effects

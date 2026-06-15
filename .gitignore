@@ -1,0 +1,17 @@
+# KiCad backup and autosave
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+*~
+\#*
+_autosave-*
+
+# Generated files (optional — some people track these)
+gerber/
+bom/
+*.dsn
+*.ses
+
+# OS files
+.DS_Store
+Thumbs.db
