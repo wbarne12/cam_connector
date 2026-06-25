@@ -6988,16 +6988,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Low for parallel \ncommunication."
-		(exclude_from_sim no)
-		(at 76.2 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "202f5b76-3f12-487c-a000-909f2a81e1d8")
-	)
 	(text "To control other signals, some of the pins that are used\nfor RGB data are re-mapped to control the LCD. "
 		(exclude_from_sim no)
 		(at 242.57 125.095 0)
@@ -7126,18 +7116,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8fa5bf0-793a-403f-9305-741526c964bb")
-	)
-	(no_connect
-		(at 100.33 114.935)
-		(uuid "05cfcc3c-6115-488f-93cc-17ff136b4113")
-	)
-	(no_connect
-		(at 29.21 59.055)
-		(uuid "2ba5bbec-c31b-4c6c-9642-4957f03b8777")
-	)
-	(no_connect
-		(at 29.21 56.515)
-		(uuid "4db835e0-3dea-493c-b5d9-936070fedb67")
 	)
 	(no_connect
 		(at 29.21 61.595)
@@ -7502,16 +7480,6 @@
 			(type default)
 		)
 		(uuid "36c5f3a4-945d-475d-af05-a3c52e2ebfc0")
-	)
-	(wire
-		(pts
-			(xy 85.725 125.095) (xy 110.49 125.095)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3787f691-16ac-413f-b99d-6f477b6fbc51")
 	)
 	(wire
 		(pts
@@ -8145,6 +8113,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.055 136.525) (xy 204.47 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3dcab15-a273-468f-9dc0-d2bafff69e78")
+	)
+	(wire
+		(pts
 			(xy 100.33 114.935) (xy 110.49 114.935)
 		)
 		(stroke
@@ -8245,6 +8223,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.055 133.35) (xy 204.47 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b813958c-ff1d-482a-b278-20e386327803")
+	)
+	(wire
+		(pts
 			(xy 217.17 54.61) (xy 224.79 54.61)
 		)
 		(stroke
@@ -8302,6 +8290,16 @@
 			(type default)
 		)
 		(uuid "bb972101-235d-4814-be90-c83948c59cf0")
+	)
+	(wire
+		(pts
+			(xy 100.33 125.095) (xy 110.49 125.095)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd26b4c3-5ec4-4abb-8bec-7823c37ab278")
 	)
 	(wire
 		(pts
@@ -9193,6 +9191,16 @@
 		)
 		(uuid "46d67b7a-abfe-408e-b6c9-8717a729ae41")
 	)
+	(label "{slash}CS"
+		(at 204.47 136.525 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a0d4ce4-2302-401e-b67e-fdd17f5b2777")
+	)
 	(label "LCD_RST"
 		(at 186.055 117.475 0)
 		(effects
@@ -9302,6 +9310,16 @@
 			(justify left bottom)
 		)
 		(uuid "52c6474d-0b6a-40e2-81e0-ee496020d8f2")
+	)
+	(label "LCD_R0"
+		(at 186.055 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52eb1acb-e57b-4bbf-8fc3-0d08d4135b02")
 	)
 	(label "DB2"
 		(at 100.33 104.775 0)
@@ -9753,6 +9771,16 @@
 		)
 		(uuid "b35fd0f9-1636-448f-98cb-5872fde9e312")
 	)
+	(label "LCD_R1"
+		(at 186.055 136.525 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b80a86a8-17e8-4b78-bac7-9fedec7c1cf6")
+	)
 	(label "IOVCC"
 		(at 100.33 132.715 0)
 		(effects
@@ -9962,6 +9990,16 @@
 			(justify left bottom)
 		)
 		(uuid "eaf875b1-af71-43c9-be14-a3e6dd25297d")
+	)
+	(label "SDI"
+		(at 204.47 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec659eb7-c4b6-447c-8e44-90cc9d1a70f0")
 	)
 	(label "DE"
 		(at 205.105 120.65 0)
@@ -11394,84 +11432,6 @@
 			(project "Cam-connector"
 				(path "/3f2f492d-9b77-43e2-b336-8c59a538cbe4"
 					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 85.725 125.095 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a662010-0b31-4e77-91cc-e69a501ecf88")
-		(property "Reference" "#PWR018"
-			(at 85.725 131.445 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.725 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.725 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.725 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.725 125.095 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3019883f-6541-43bb-9920-d5ba39df3959")
-		)
-		(instances
-			(project "Cam-connector"
-				(path "/3f2f492d-9b77-43e2-b336-8c59a538cbe4"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
