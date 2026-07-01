@@ -7133,12 +7133,36 @@
 		(uuid "cc747b47-cedf-4ccd-aa1e-bc586d0d98c0")
 	)
 	(no_connect
+		(at 29.21 130.175)
+		(uuid "1676a407-5fe9-47e9-8909-9ee981711dcf")
+	)
+	(no_connect
 		(at 29.21 61.595)
 		(uuid "17118939-af10-4873-a51f-2c692f2c845b")
 	)
 	(no_connect
+		(at 29.21 127.635)
+		(uuid "179b30ab-e518-4b68-8a1d-9dacf42412ab")
+	)
+	(no_connect
+		(at 29.21 76.835)
+		(uuid "1912d40d-f6ac-4a57-92da-6a8ab55b4552")
+	)
+	(no_connect
+		(at 29.21 99.695)
+		(uuid "39cace40-7867-4e61-b112-2c52bcabc50c")
+	)
+	(no_connect
+		(at 29.21 79.375)
+		(uuid "55771900-96e2-44cf-afd0-c7363a7f929e")
+	)
+	(no_connect
 		(at 100.33 127.635)
 		(uuid "565e5f44-35f5-4327-8353-9ee85ba92f08")
+	)
+	(no_connect
+		(at 29.21 97.155)
+		(uuid "64f0e61b-d596-4308-957d-168ef24b47c1")
 	)
 	(no_connect
 		(at 100.33 117.475)
@@ -7151,6 +7175,10 @@
 	(no_connect
 		(at 196.215 122.555)
 		(uuid "dcd4464b-f63e-4fbc-9069-0385736e21c2")
+	)
+	(no_connect
+		(at 29.21 102.235)
+		(uuid "e54f41bb-4622-4f9c-bc8c-f4c54bdd57b3")
 	)
 	(wire
 		(pts
@@ -11304,7 +11332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:CON_5051104096_MOL"
+		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-40S-0.5SH_1x40-1MP_P0.50mm_Horizontal"
 			(at 41.275 43.815 0)
 			(hide yes)
 			(show_name no)
@@ -11826,7 +11854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints:AMPHENOL_F304-1A7H1-11050-E100"
+		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-50S-0.5SH_1x50-1MP_P0.50mm_Horizontal"
 			(at 120.65 94.615 0)
 			(hide yes)
 			(show_name no)
